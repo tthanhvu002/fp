@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header-container d-flex align-items-center justify-content-between gap-3 gap-md-0">
+                    <div class="logo">
+                        <h1>mica</h1>
+                        <p>biển mica siêu đẹp</p>
+                    </div>
+                    <ul class="nav d-flex align-items-center gap-2">
+                        <li>trang chủ</li>
+                        <li>giới thiệu</li>
+                        <li>sản phẩm</li>
+                        <li>dịch vụ</li>
+                        <li>tin tức</li>
+                        <li>liên hệ</li>
+                    </ul>
+                    <div class="sign-in-btn">Đăng nhập</div>
+                </div>
+            </div>
+        </div>
+        <div class="search-wrap">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-lg-between justify-content-center flex-wrap gap-2">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                            <span>Danh mục sản phẩm</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <div class="search-box d-flex align-items-center">
+                        <input type="text" placeholder="Nhập từ khoá tìm kiếm" />
+                        <div class="search-icon">
+                            <img src="./img/search.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="phone-number">09029938282</div>
+                        <div class="contact-btn">Liên hệ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news-section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="./img/mica1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/mica1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/mica1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/mica1.jpg" alt=""></div>
+
+                                ...
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mt-lg-0 mt-4">
+                        <ul class="news-list">
+                            <li class="news-item">
+                                <div class="row">
+                                    <div class="col-3"><img src="./img/mica1.jpg" alt="" /></div>
+                                    <div class="col-9">
+                                        <div class="d-flex flex-column">
+                                            <h3>Chuyên gia công sản phẩm MICA theo yêu cầu</h3>
+                                            <p>05/06/2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news-item">
+                                <div class="row">
+                                    <div class="col-3"><img src="./img/mica2.jpg" alt="" /></div>
+                                    <div class="col-9">
+                                        <div class="d-flex flex-column">
+                                            <h3>Chuyên gia công sản phẩm MICA theo yêu cầu</h3>
+                                            <p>05/06/2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news-item">
+                                <div class="row">
+                                    <div class="col-3"><img src="./img/mica3.jpg" alt="" /></div>
+                                    <div class="col-9">
+                                        <div class="d-flex flex-column">
+                                            <h3>Chuyên gia công sản phẩm MICA theo yêu cầu</h3>
+                                            <p>05/06/2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news-item">
+                                <div class="row">
+                                    <div class="col-3"><img src="./img/mica4.jpg" alt="" /></div>
+                                    <div class="col-9">
+                                        <div class="d-flex flex-column">
+                                            <h3>Chuyên gia công sản phẩm MICA theo yêu cầu</h3>
+                                            <p>05/06/2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row box-list mt-lg-0 mt-4 gap-2 gap-md-0">
+                    <div class="col-md-4 col-12" style="background-color: #61c05d">
+                        <div class="row">
+                            <div class="col-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                    class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                </svg>
+                            </div>
+                            <div class="col-9 p-2">
+                                <div class="d-flex flex-column">
+                                    <h3>Hỗ trợ 24/7</h3>
+                                    <p>Hỗ trợ khách hàng mọi ngày trong tuần, bất cứ lúc nào</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12" style="background-color: #fbaf5d">
+                        <div class="row">
+                            <div class="col-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                </svg>
+                                </svg>
+                            </div>
+                            <div class="col-9 p-2">
+                                <div class="d-flex flex-column">
+                                    <h3>Chính sách chất lượng</h3>
+                                    <p>Hoàn 100% tiền nếu sản phẩm không đạt tiêu chuẩn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12" style="background-color: #00aeef">
+                        <div class="row">
+                            <div class="col-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                    <path fill-rule="evenodd"
+                                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                </svg>
+                                </svg>
+                            </div>
+                            <div class="col-9 p-2">
+                                <div class="d-flex flex-column">
+                                    <h3>Quan điểm kinh doanh</h3>
+                                    <p>Khách hàng mới là người quyết định sự tồn tại và phát triển của công ty chúng tôi
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="container">
+                <div class="row">
+                    <!-- Slider main container -->
+                    <div class="swiper2">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-item">
+                                    <img src="./img/mica1.jpg" alt="">
+                                    <p>Hộp mica trưng bày mẫu vật 23</p>
+                                    <div class="readmore">
+                                        Đọc tiếp
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="posts-section">
+            <div class="container">
+                <div class="posts-title d-flex align-items-center justify-content-between">
+                    <h1>Tin tức - Bài viết</h1>
+                    <a href="#">
+                        Xem tất cả
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="post-list row gy-0 gy-sm-2">
+                    <div class="post-item col-sm-6 col-lg-3">
+                        <img src="./img/mica1.jpg" alt="">
+                        <h3>Chuyên gia công sản phẩm MICA theo yêu cầu</h3>
+                        <span>05/06/2018</span>
+                        <p>Chào các bạn - bạn đang tìm địa chỉ gia công</p>
+                    </div>
+
+                    <div class="post-item col-sm-6 col-lg-3">
+                        <img src="./img/mica2.jpg" alt="">
+                        <h3>Nhận biết đơn vị gia công MICA uy tín và chất lượng</h3>
+                        <span>05/06/2018</span>
+                        <p>Khi bạn cần đơn vị gia công MICA để làm menu MICA hay kệ tủ</p>
+                    </div>
+                    <div class="post-item col-sm-6 col-lg-3">
+                        <img src="./img/mica3.jpg" alt="">
+                        <h3>Micomax - Tổng kho MICA uy tín chuyên nghiệp nhất Miền Bắc</h3>
+                        <span>05/06/2018</span>
+                        <p>MICA Đài Loan, MICA Nhật Bản - Mitsubitsi, MICA Malaysia</p>
+                    </div>
+                    <div class="post-item col-sm-6 col-lg-3">
+                        <img src="./img/mica4.jpg" alt="">
+                        <h3>Cắt LASER, CNC, Mài bóng MICA chuyên nghiệp</h3>
+                        <span>05/06/2018</span>
+                        <p>Micomax với thế mạnh là nhập khẩu và phân phối MICA chuyên nghiệp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="./img/g1.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g2.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g3.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g4.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g5.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g6.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g7.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g1.webp " alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./img/g2.webp " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-section-heading">Stay connected</div>
+            <div class="form-section-text">
+                Let's talk if you have any query or suggestion We are open to learn
+                from you. So don't hesitate to reach us anytime.
+            </div>
+            <div class="form-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <label for="">Your name</label>
+                            <input type="text" />
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <label for="">Budget</label>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="">your email</label>
+                            <input type="text" placeholder="YOUR EMAIL" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="">MESSAGE</label>
+
+                            <textarea name="" id="" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="copy">
+                                <input type="checkbox" />
+                                <p>Send me a copy</p>
+                            </div>
+                            <div class="send-btn d-flex align-items-center">
+                                Send
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-telephone"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                    <span>+1 838 39439</span>
+                </div>
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-envelope"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    <span>info@themewagon.com</span>
+                </div>
+
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-geo-alt"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <span>Apt 45 Central Road, Estonia</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-lg-3 col-12">
+                        <ul>
+                            <li>
+                                <img src="./img/geo-alt.svg" alt="" />
+                                Tracking
+                            </li>
+                            <li>
+                                <img src="./img/arrow-repeat.svg" alt="" />
+                                Seamless syncing
+                            </li>
+                            <li>
+                                <img src="./img/globe.svg" alt="" />
+                                Global Delivery
+                            </li>
+                        </ul>
+                        <div class="fb">
+                            <img src="./img/facebook.svg" alt="" />
+                            find us on facebook
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-12">
+                        <h2>About</h2>
+                        <ul>
+                            <li>About Slick</li>
+                            <li>News</li>
+                            <li>Member</li>
+                            <li>Career</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-1 col-12">
+                        <h2>Company</h2>
+                        <ul>
+                            <li>Terms</li>
+                            <li>Support</li>
+                            <li>Help Forum</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <h2>Subscribe to Slick Newsletter</h2>
+                        <div class="email-signup">
+                            <input type="text" placeholder="Your Email" />
+                            <button>Sign up</button>
+                        </div>
+                        <div class="social-list d-flex align-items-center gap-4">
+                            <img src="./img/facebook.svg" alt="" />
+                            <img src="/img/twitter.svg" alt="" />
+                            <img src="./img/google.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        // Navigation arrows
+
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+</script>
+<script>
+    const swiper2 = new Swiper('.swiper2', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        slidesPerView: 4,
+        spaceBetween: 40,
+        breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
+    });
+</script>
+
+</html>
