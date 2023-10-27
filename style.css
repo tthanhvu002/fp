@@ -60,7 +60,7 @@ ul {
 
 .swiper-button-next,
 .swiper-button-prev {
-    top: 19% !important;
+    top: 44% !important;
 }
 
 .swiper2 .swiper-button-next{
@@ -501,6 +501,9 @@ img {
     height: 100%;
     object-fit: cover;
 }
+.posts-section {
+    margin-top: 30px;
+}
 @media screen and (max-width: 1023.98px) {
     .header-container {
         justify-content: center;
@@ -517,7 +520,6 @@ img {
     }
     .swiper-button-next,
     .swiper-button-prev {
-        top: 28% !important;
     }
     .search-wrap {
         padding: 12px;
@@ -542,10 +544,8 @@ img {
         display: none !important;
     }
     .swiper2 .swiper-button-next{
-        top: 27% !important;
     }
     .swiper2 .swiper-button-prev{
-        top: 27% !important;
 
     }
     .navbar-collapse {
