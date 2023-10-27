@@ -35,9 +35,24 @@ ul {
     width: 100%;
     height: 300px;
 }
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    top: 55% !important;
+}
+
+/* .swiper .swiper-button-next{
+    right: 40%;
+}
+.swiper .swiper-button-prev{
+    left: 40%;
+} */
+
 .swiper2 {
     width: 100%;
 }
+
+
 
 .swiper-button-lock {
     display: block;
@@ -46,6 +61,13 @@ ul {
 .swiper-button-next,
 .swiper-button-prev {
     top: 19% !important;
+}
+
+.swiper2 .swiper-button-next{
+    right: 4%;
+}
+.swiper2 .swiper-button-prev{
+    left: 4%;
 }
 .swiper-slide img {
     width: 100%;
@@ -505,10 +527,25 @@ img {
 }
 
 @media screen and (max-width: 767.98px) {
+    .form-section{
+        padding: 0 20px;
+    }
+    .form-wrap{
+        padding: 25px 5px;
+    }
+    .contact-wrap{
+        flex-direction: column;
+    }
     .nav {
         display: none !important;
     }
+    .swiper2 .swiper-button-next{
+        top: 27% !important;
+    }
+    .swiper2 .swiper-button-prev{
+        top: 27% !important;
 
+    }
     .navbar-collapse {
         position: absolute;
         top: 98%;
