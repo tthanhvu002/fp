@@ -235,10 +235,12 @@ input {
 .readmore {
     background-color: var(--red-color);
     padding: 10px;
-    padding-bottom: 5px;
     text-align: center;
     width: 100px;
     margin: 15px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
